@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="mystyle.css">
+
+<body>
+    <!---->
+    <div class="topnav">
+        <a href="index.html"> <img src="Icons/home.svg" alt="home icon" class="navbaricon"><br>Home</a>
+        <a href="portfolio.html"> <img src="Icons/portfolio.svg" alt="portfolioicon"
+                class="navbaricon"><br>Portfolio</a>
+    </div>
+    <div class="header">
+        <h1 style="text-align:center;font-family:Spectral,serif;">
+            <img src="Icons/portfolio.svg" alt="portfolio icon" class="sectionicon"> <br>Portfolio 3
+        </h1>
+    </div>
+
+    <h1 class="portfolioheader">
+        Paulus
+    </h1>
+
+    <h1 class="portfoliopicture">
+        <img src="Project Media/3D Art/paulusRender.png" class="portfoliopicture" style="width:960px;height:540px;">
+    </h1>
+
+    <p class="portfoliopara">
+        This is a 3D model of a character named Paulus I came up with.
+    <br>He’s a funny guy.<br>
+        <a href="Project Media/pdf/paulus reference sheet.pdf">Character Reference Sheet</a>
+    </p>
+
+    <h1 class="portfolioheader">
+        Up In The Air
+    </h1>
+
+    <h1 class="portfoliopicture">
+        <img src="Project Media/Up In The Air Menu/hand_held_menu_final.png" class="portfoliopicture" style="width:960px;height:540px;">
+        <br>
+        <img src="Project Media/Up In The Air Menu/menu_board_final.png" class="portfoliopicture" style="width:687.5px;height:425px">
+    </h1>
+
+    <p class="portfoliopara">
+        This was a group design project to make two menus for the culinary class in our school.<br>
+        The culinary class used these designs in a competition they entered.<br>
+        I worked on the general layout and placement of art and text for the menus.<br>
+        My other teammates worked on art assets, menu designs, and layout concepts.
+    </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <h1 class="portfolioheader">
+        <a href="portfolio.html">1</a> <a href="portfolio2.html">2</a> 3
+    </h1>
+
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>

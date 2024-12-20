@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="mystyle.css">
+
+<body>
+    <!---->
+    <div class="topnav">
+        <a href="index.html"> <img src="Icons/home.svg" alt="home icon" class="navbaricon"><br>Home</a>
+        <a href="portfolio.html"> <img src="Icons/portfolio.svg" alt="portfolioicon"
+                class="navbaricon"><br>Portfolio</a>
+    </div>
+    <div class="header">
+        <h1 style="text-align:center;font-family:Spectral,serif;">
+            <img src="Icons/portfolio.svg" alt="portfolio icon" class="sectionicon"> <br>Portfolio
+        </h1>
+    </div>
+
+    <h1 class="portfolioheader">Dinner Detain</h1>
+    <h1 class="portfoliopicture">
+        <img src="Project Media/Game Thumbnails/dinnerDetainThumbnail.png" class="portfoliopicture" style="width:677.75px;height:524.25px;">
+    </h1>
+
+    <p class="portfoliopara">
+        Dinner Detain is a visual novel made in Construct 3. I coded, designed, and wrote the majority of dialogue.
+        <br>My teammate Lee did all of the art, came up with the original concept for gameplay, design, and characters, as well as making the music. 
+        <br>This game was made for the 2024 New York SkillsUSA Interactive Application competition, which we won second place in.
+    </p>
+    
+    <h2 class="portfolioheader">
+        <iframe frameborder="0" src="https://itch.io/embed/2672145?linkback=true&amp;border_width=5&amp;bg_color=ffffff" width="560" height="175"><a href="https://hunegames.itch.io/dinner-detain">Dinner Detain by HUNEGames</a></iframe>
+    </h2>
+
+    <h1 class="portfolioheader">
+        The Graveyard
+      </h1>
+    <h1 class="portfoliopicture">
+    <img src="Project Media/Game Thumbnails/theGraveyardThumbnail.gif" alt="graveyard game picture" class="portfoliopicture">
+    </h1>
+
+    <p class="portfoliopara">
+        The Graveyard is a game made in Bitsy.
+        <br>You play as a ghost returning to their grave.
+    </p>
+
+    <h2 class="portfolioheader">
+        <iframe frameborder="0" src="https://itch.io/embed/2738486?linkback=true&amp;border_width=5" width="560" height="175"><a href="https://hunegames.itch.io/the-graveyard">The Graveyard by HUNEGames</a></iframe>
+    </h2>
+
+    <h1 class="portfolioheader">
+        Pong With Lasers
+    </h1>
+    <h1 class="portfoliopicture">
+        <img src="Project Media/Game Thumbnails/PongThumbnail.png" class="portfoliopicture">
+    </h1>
+
+    <p class="portfoliopara">
+        Pong with lasers is Pong but with a twist!
+        <br>The player is able to shoot a laser that can hit the other player, or hit the ball.
+    </p>
+
+    <h2 class="portfolioheader">
+        <iframe frameborder="0" src="https://itch.io/embed/2738434?linkback=true&amp;border_width=5" width="560" height="175"><a href="https://hunegames.itch.io/pong-with-lasers">Pong With Lasers! by HUNEGames</a></iframe>
+    </h2>
+
+    <h1 class="portfolioheader">
+        1 <a href="portfolio2.html">2</a> <a href="portfolio3.html">3</a>
+    </h1>
+
+
+
+
+
+
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>

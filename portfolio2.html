@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="mystyle.css">
+
+<body>
+    <!---->
+    <div class="topnav">
+        <a href="index.html"> <img src="Icons/home.svg" alt="home icon" class="navbaricon"><br>Home</a>
+        <a href="portfolio.html"> <img src="Icons/portfolio.svg" alt="portfolioicon"
+                class="navbaricon"><br>Portfolio</a>
+    </div>
+    <div class="header">
+        <h1 style="text-align:center;font-family:Spectral,serif;">
+            <img src="Icons/portfolio.svg" alt="portfolio icon" class="sectionicon"> <br>Portfolio 2
+        </h1>
+    </div>
+
+
+    <h1 class="portfolioheader">
+        Tickle Frog
+    </h1>
+    <h1 class="portfoliopicture">
+        <img src="Project Media/Game Thumbnails/frogThumbnail.png" class="portfoliopicture">
+    </h1>
+
+    <p class="portfoliopara">
+        Tickle Frog was made by Lee and I.
+        <br>I coded the game. Lee did all of the art and came up with the original concepts for gameplay and art.
+        <br>You play as a Mosquito trying to escape from a Frog by tickling him. 
+        <br>This made for the 2024 Global Game Jam with the theme of <b>Make Me Laugh</b> 
+
+    </p>
+
+    <h2 class="portfolioheader">
+        <iframe frameborder="0" src="https://itch.io/embed/2738401?linkback=true&amp;border_width=5" width="560" height="175"><a href="https://hunegames.itch.io/tickle-frog">Tickle Frog! by HUNEGames</a></iframe>
+    </h2>
+
+    <h1 class="portfolioheader">
+        The Crow Named Tremont
+    </h1>
+
+    <h1 class="portfoliopicture">
+        <img src="Project Media/Game Thumbnails/theCrowNamedTremontThumbnail.png" class="portfoliopicture" style="width:854px;height:480px">
+    </h1>
+
+    <p class="portfoliopara">
+        Crow Named Tremont is a game made in Twine.
+        <br>You play as a crow going about his day.
+
+    </p>
+
+    <h2 class="portfolioheader">
+        <iframe frameborder="0" src="https://itch.io/embed/2738521?linkback=true&amp;border_width=5" width="560" height="175"><a href="https://hunegames.itch.io/crow-named-tremont">The Crow Named Tremont by HUNEGames</a></iframe>
+    </h2>
+
+
+    <h1 class="portfolioheader">
+        Breakout
+    </h1>
+
+    <h1 class="portfoliopicture">
+        <img src="Project Media/Game Thumbnails/breakoutThumbnail.png" class="portfoliopicture">
+    </h1>
+
+    <p class="portfoliopara">
+        A recreation of Breakout made with p5play, a Javascript library.
+    </p>
+
+    <h2 class="portfolioheader">
+        <iframe frameborder="0" src="https://itch.io/embed/2738447?linkback=true&amp;border_width=5" width="560" height="175"><a href="https://hunegames.itch.io/breakout">Breakout by HUNEGames</a></iframe>
+    </h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h1 class="portfolioheader">
+        <a href="portfolio.html">1</a> 2 <a href="portfolio3.html">3</a>
+    </h1>
+
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
